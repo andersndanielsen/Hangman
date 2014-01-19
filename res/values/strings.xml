@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hangman</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_spilleregler">Spilleregler</string>
+    <string name="title_activity_spill">Spill</string>
+    
+    <string name="nyttSpill">Nytt spill</string>
+    <string name="lesRegler">Spilleregler</string>
+    <string name="nyttOrdKnapp">Nytt ord</string>
+    <string name="nyttOrdPKnapp">Ja</string>
+    <string name="nyttOrdNKnapp">Nei</string>
+    <string name="avsluttKnapp">Avslutt</string>
+    <string name="antallSeire">Antall seire:</string>
+    <string name="antallTap">Antall tap:</string>
+    <string name="reglementet">
+        Målet med dette spillet er å gjette ordet som spillet har valgt ut for deg, og dermed redde personen fra å bli hengt! For å gjette ordet må du gjette bokstav for
+        bokstav. Men vær forsiktig! Du kan bare gjette feil 6 ganger. Den syvende gangen har du tapt runden, og personen ble hengt.
+        \n\nGjett på en bokstav ved å rett og slett trykke på en av bokstavene. Da vil den bli rød, og du kan heller ikke trykke på den flere ganger. Den vil bli rød
+        uansett om du gjettet riktig eller feil, men om du gjettet riktig så dukker også bokstaven(e) opp på linjene.
+        \n\nOm du vil vite din score; ta en titt opp i toppen av vinduet ditt.
+        \n\nSpillet er vunnet når du klarer å gjette ordet før personen har blitt hengt.
+    </string>
+    
+    <string name="cdforsideBilde">Bilde av en galge</string>
+    <string name="cdhm0">Tomt bilde, men en galge blir tegnet steg for steg når man gjetter feil bokstav</string>
+    <string name="bakgrunnsBeskrivelse">Bakgrunnsbilde, en klassisk klasseromstavle</string>
+    
+    <string name="header_synd">Synd!</string>
+    <string name="header_gratulerer">Gratulerer!</string>
+    <string name="melding_synd">Riktig ord var: %1$s</string>
+    <string name="melding_gratulerer">Du klarte det!</string>
+    <string name="header_tomt">Ingen flere ord!</string>
+    <string name="melding_tomt">"Spillet er over\nDu endte med %1$s seiere og %2$s tap."</string>
+    <string name="header_nyttOrd">Sikker på at du vil prøve et nytt ord?</string>
+    <string name="header_avslutte">Avslutte?</string>
+    <string name="melding_avslutte">Sikker på at du vil avslutte spillet?</string>
+
+</resources>

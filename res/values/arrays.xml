@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hangman">
+        <item>tyttebær</item>
+        <item>gris</item>
+        <item>manus</item>
+        <item>london</item>
+        <item>bær</item>
+        <item>bål</item>
+        <item>frisbee</item>
+        <item>disk</item>
+        <item>kjetting</item>
+        <item>anders</item>
+        <item>birgitte</item>
+        <item>is</item>
+        <item>yoghurt</item>
+        <item>blåbær</item>
+        <item>oslo by</item>
+        <item>kamera</item>
+    </string-array>
+</resources>

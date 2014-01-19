@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="h1">25sp</dimen>
+    <dimen name="h2">20sp</dimen>
+    <dimen name="p">15sp</dimen>
+    <dimen name="underTavle">20sp</dimen>
+    <dimen name="tilSideForTavle">30sp</dimen>
+</resources>

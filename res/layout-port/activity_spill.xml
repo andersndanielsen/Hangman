@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Spill"
+    android:background="@drawable/green_blackboard" >
+    
+    <LinearLayout
+        android:id="@+id/oeverstLinear"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:layout_marginTop="@dimen/underTavle" >
+        
+		<TextView 
+	    	android:id="@+id/antallSeireTekst"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_marginLeft="@dimen/tilSideForTavle"
+	    	android:textColor="@color/white"
+	    	android:text="@string/antallSeire"/>
+		<TextView 
+	    	android:id="@+id/antallTapTekst"
+	    	android:gravity="right"
+	    	android:layout_weight="1.0"
+	    	android:layout_width="0dp"
+	    	android:layout_height="wrap_content"
+	    	android:layout_marginRight="@dimen/tilSideForTavle"
+	    	android:textColor="@color/white"
+	    	android:text="@string/antallTap"/>
+	</LinearLayout>
+	    
+    <ImageView 
+        android:contentDescription="@string/cdhm0"
+        android:id="@+id/hm0"
+        android:layout_below="@id/oeverstLinear"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/hm0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true" />	
+	
+    <LinearLayout 
+	    android:id="@+id/tekstfelter"
+	    android:layout_below="@id/hm0"
+	    android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true" >
+	</LinearLayout>
+	
+	<LinearLayout 
+    	android:id="@+id/bokstavLayout1"
+	    android:layout_below="@id/tekstfelter"
+	    android:layout_marginTop="20dp"
+	    android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true">
+	</LinearLayout>
+		
+	<LinearLayout 
+	    android:id="@+id/bokstavLayout2"
+	    android:layout_below="@id/bokstavLayout1"
+	    android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true">
+	</LinearLayout>
+		
+	<LinearLayout 
+	    android:id="@+id/bokstavLayout3"
+	    android:layout_below="@id/bokstavLayout2"
+	    android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true">
+	</LinearLayout>
+	
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hangman">
+        <item>cowberry</item>
+        <item>pig</item>
+        <item>manus</item>
+        <item>london</item>
+        <item>berry</item>
+        <item>bonfire</item>
+        <item>frisbee</item>
+        <item>disc</item>
+        <item>chain</item>
+        <item>anders</item>
+        <item>birgitte</item>
+        <item>ice cream</item>
+        <item>yoghurt</item>
+        <item>blueberry</item>
+        <item>oslo city</item>
+        <item>camera</item>
+    </string-array>
+</resources>

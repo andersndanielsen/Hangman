@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:background="@drawable/green_blackboard" >
+    
+    <ImageView
+        android:id="@+id/forsideBilde"
+        android:contentDescription="@string/cdforsideBilde"
+        android:src="@drawable/hm7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/forsideBilde"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_marginTop="40sp" >
+    	<Button
+        	android:id="@+id/nyttSpillKnapp"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:text="@string/nyttSpill"
+        	android:onClick="startSpill"/>
+    	<Button
+        	android:id="@+id/lesReglerKnapp"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:text="@string/lesRegler"
+        	android:onClick="lesRegler"/>
+    </LinearLayout>
+
+</RelativeLayout>

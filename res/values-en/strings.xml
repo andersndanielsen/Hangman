@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hangman</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_spilleregler">How to play</string>
+    <string name="title_activity_spill">Game</string>
+    
+    <string name="nyttSpill">New game</string>
+    <string name="lesRegler">How to play</string>
+    <string name="nyttOrdKnapp">New word</string>
+    <string name="nyttOrdPKnapp">Yes</string>
+    <string name="nyttOrdNKnapp">No</string>
+    <string name="avsluttKnapp">Quit</string>
+    <string name="antallSeire">Victories:</string>
+    <string name="antallTap">Loss:</string>
+    <string name="reglementet">
+        The game is all about guessing the right word before the man gets hanged! To guess the word you have to try letter by letter. But careful! You can only
+        make 6 mistakes. The 7th will make you loose the round, and the person gets hanged.
+        \n\nTo choose a letter simply touch the letter of your choice. It will turn red and lock it so you can\'t touch it twice. It will turn red even if it\'s correct letter
+        , but it will also show the right letter upon the lines counting the number of letters.
+        \n\nIf you want to know your score, have a look at the top of your screen.
+        \n\nYou have won the game if you can guess the right word before it is to late for our guy.
+   </string>
+   
+    <string name="cdforsideBilde">Header</string>
+    <string name="cdhm0">Empty picture, but it is drawn picture by picture until the man is hanged</string>
+    <string name="bakgrunnsBeskrivelse">Background picture, blackboard</string>
+    
+    <string name="header_synd">Too bad!</string>
+    <string name="header_gratulerer">Congratulations!</string>
+    <string name="melding_synd">Correct word was: %1$s</string>
+    <string name="melding_gratulerer">You did it!</string>
+    <string name="header_tomt">No more words!</string>
+    <string name="melding_tomt">"Game over\nYou had %1$s victories and %2$s loss."</string>
+    <string name="header_nyttOrd">Sure you want to try a new word?</string>
+    <string name="header_avslutte">Quit?</string>
+    <string name="melding_avslutte">Sure you want to quit?</string>
+
+</resources>
